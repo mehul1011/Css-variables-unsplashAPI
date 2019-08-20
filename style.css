@@ -8,11 +8,19 @@ img{
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
-  display: inline;
+  margin: 20px;
+  margin-left: 70px;
   cursor: pointer;
   transition: 0.3s;
 }
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
 /* #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -30,8 +38,8 @@ img{
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
+  /* background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
 
 .modal-content{
   margin: auto;
